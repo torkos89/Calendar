@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Calendar</title>
+  
+  <link rel="stylesheet" type="text/css" href="page.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+  <h1>HEADER</h1>
+   <p>word salad</p>
+   <div>
+    <i class="fa fa-calendar" style="font-size:48px" aria-hidden="true"></i>
+   </div>
+   <script src="calendar.js"></script>
+   <script>
+   	var icon = document.querySelector("i.fa-calendar")
+   	var c = calendar()
+   	icon.addEventListener("click",c.create)
+ 	
+   	</script>
+ </body>
+</html> 
